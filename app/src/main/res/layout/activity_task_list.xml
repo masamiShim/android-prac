@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="employed.self.freitech.appfitness.TaskListActivity">
+    tools:context="employed.self.freitech.appfitness.tasklist.TaskListActivity">
     <ListView
         android:id="@+id/todoList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp" />
+
     <Button
         android:id="@+id/addTask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="追加する"/>
+        android:text="追加する" />
 </android.support.constraint.ConstraintLayout>

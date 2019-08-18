@@ -10,7 +10,6 @@ import android.widget.BaseAdapter
 import android.widget.TextView
 import employed.self.freitech.appfitness.R
 import employed.self.freitech.appfitness.domain.TodoItem
-import org.w3c.dom.Text
 
 class TodoItemListAdapter(
     private val activity: Activity,

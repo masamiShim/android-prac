@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="employed.self.freitech.appfitness.CreateTaskActivity">
+    tools:context="employed.self.freitech.appfitness.taskadd.CreateTaskActivity">
 
     <EditText
         android:id="@+id/editText"

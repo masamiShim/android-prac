@@ -13,6 +13,7 @@ import com.github.mikephil.charting.data.BarEntry
 import com.github.mikephil.charting.formatter.IValueFormatter
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet
+import employed.self.freitech.appfitness.tasklist.TaskListActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.move_todo).setOnClickListener {
-            val intent = Intent(this@MainActivity, employed.self.freitech.appfitness.TaskListActivity::class.java)
+            val intent = Intent(this@MainActivity, TaskListActivity::class.java)
             startActivity(intent)
         }
 
